@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "734655933077",
+    "firebase_url": "https://pstmanager-5cb60.firebaseio.com",
+    "project_id": "pstmanager-5cb60",
+    "storage_bucket": "pstmanager-5cb60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734655933077:android:bfef789a025a3a672c499c",
+        "android_client_info": {
+          "package_name": "com.example.projektzdarzeniowe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734655933077-b491niv5eh4luslr00hre473andgqpld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.projektzdarzeniowe",
+            "certificate_hash": "2e3e5b36fbd5d69e32376df66f1a231932eec351"
+          }
+        },
+        {
+          "client_id": "734655933077-5n2n895e39or5pj43pnvsmj7ruioe9it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOuBZzXajnteY-4skR5KF8JSDp3a8nNY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734655933077-5n2n895e39or5pj43pnvsmj7ruioe9it.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controler.RemoveVehFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="DELETE VEHICLE"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/deleteVehTIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/deleteVehET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type vehicle ID" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/deleteVehicle"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_below="@+id/deleteVehTIL"/>
+</RelativeLayout>

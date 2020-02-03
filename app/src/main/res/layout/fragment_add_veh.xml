@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controler.AddVehFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/addVehTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="ADD VEHICLE" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/addVehTV">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleTIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/vehicleEto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Vehicle (name)" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idVehTIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idVehEto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Id" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/addVehicle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            >
+        </Button>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

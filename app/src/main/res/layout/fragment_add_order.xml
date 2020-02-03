@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Controler.AddOrderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/addOrderTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="170dp"
+        android:gravity="center"
+        android:text="ADD ORDER" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/addOrderTV">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateTIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/dateEto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date (yyyy-mm-dd)" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/userTIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/userEto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Driver (id)" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/vehicleTIL">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/vehicleEto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Vehicle (id)" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTIL">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/idEto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Id" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/addOrder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            >
+        </Button>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
